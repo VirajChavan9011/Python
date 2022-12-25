@@ -1,0 +1,111 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[6]:
+
+
+# while loop - It works until the statement is true, it will run until the statement is true. When fails it will stop working.
+#syntax:
+#   While(condition):
+#        Statement 
+
+#Here we have created a loop.
+a = 1 
+while a <= 7:
+    print(a)
+    a = a + 1 
+    
+
+
+# In[10]:
+
+
+a = 10 
+while a >= 1:
+    print(a)
+    a = a - 1
+
+
+# In[16]:
+
+
+#do the increment till 15
+a = 5
+while a <= 15:
+    print(a)
+    a = a + 1
+
+
+# In[18]:
+
+
+x = 10 
+while x<= 25:
+    print(x)
+    x = x + 3
+
+
+# In[30]:
+
+
+x = 2
+y = 1
+while y<= 10:
+    print(x*y)
+    y = y + 1
+
+
+# In[32]:
+
+
+x = int(input("Insert Your Value: "))
+y = 1
+while y <= 10:
+    print(x*y)
+    y = y + 1
+
+
+# In[43]:
+
+
+#1-10 while loop, if 1 then odd if 2 then even 
+
+a = 1
+while a <= 10:
+    if a % 2 ==0:
+        print("Even Number:",a)
+    else:
+        print("Old Number:",a)
+    a = a + 1
+        
+
+
+# In[51]:
+
+
+#a = 0 , b = 5
+
+a = 0
+while a <= 5:
+    print("you have passed the level :", a)
+    a = a + 1
+
+
+# In[60]:
+
+
+x = 6
+sum = 0
+
+while x >= 1:
+    sum = sum + x 
+    print(sum)
+    x = x - 1
+
+
+# In[ ]:
+
+
+
+
+
